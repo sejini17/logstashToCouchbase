@@ -28,7 +28,6 @@ import java.util.Properties;
 public class logstashToCouchbase {
     private static final ObjectMapper MAPPER = new ObjectMapper();
     private static final SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-//    private static final String SERVER_IP = "211.219.160.150";
     private static final String SERVER_IP = "localhost";
 
     public static void main(String[] args) throws InterruptedException, SQLException {
